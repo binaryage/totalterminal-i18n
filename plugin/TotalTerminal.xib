@@ -901,7 +901,7 @@
 																<string key="NSFrame">{{141, 85}, {291, 15}}</string>
 																<reference key="NSSuperview" ref="358119777"/>
 																<reference key="NSWindow"/>
-																<reference key="NSNextKeyView" ref="757685578"/>
+																<reference key="NSNextKeyView" ref="501083345"/>
 																<bool key="NSEnabled">YES</bool>
 																<object class="NSTextFieldCell" key="NSCell" id="35332886">
 																	<int key="NSCellFlags">-1536033215</int>
@@ -925,7 +925,7 @@
 																<string key="NSFrame">{{435, 78}, {107, 28}}</string>
 																<reference key="NSSuperview" ref="358119777"/>
 																<reference key="NSWindow"/>
-																<reference key="NSNextKeyView" ref="501083345"/>
+																<reference key="NSNextKeyView" ref="1044312482"/>
 																<bool key="NSEnabled">YES</bool>
 																<object class="NSButtonCell" key="NSCell" id="310206118">
 																	<int key="NSCellFlags">604110336</int>
@@ -983,7 +983,7 @@
 																					<string>NeXT Encapsulated PostScript v1.2 pasteboard type</string>
 																					<string>NeXT TIFF v4.0 pasteboard type</string>
 																				</set>
-																				<string key="NSFrame">{{19, 21}, {16, 16}}</string>
+																				<string key="NSFrame">{{19, 6}, {16, 16}}</string>
 																				<reference key="NSSuperview" ref="1007315635"/>
 																				<reference key="NSWindow"/>
 																				<reference key="NSNextKeyView" ref="259240419"/>
@@ -1005,7 +1005,7 @@
 																			<object class="NSTextField" id="259240419">
 																				<reference key="NSNextResponder" ref="1007315635"/>
 																				<int key="NSvFlags">268</int>
-																				<string key="NSFrame">{{37, 17}, {228, 17}}</string>
+																				<string key="NSFrame">{{37, 2}, {228, 17}}</string>
 																				<reference key="NSSuperview" ref="1007315635"/>
 																				<reference key="NSWindow"/>
 																				<reference key="NSNextKeyView" ref="64293574"/>
@@ -1027,10 +1027,10 @@
 																			<object class="NSButton" id="64293574">
 																				<reference key="NSNextResponder" ref="1007315635"/>
 																				<int key="NSvFlags">268</int>
-																				<string key="NSFrame">{{389, 16}, {25, 25}}</string>
+																				<string key="NSFrame">{{389, 1}, {25, 25}}</string>
 																				<reference key="NSSuperview" ref="1007315635"/>
 																				<reference key="NSWindow"/>
-																				<reference key="NSNextKeyView" ref="1044312482"/>
+																				<reference key="NSNextKeyView" ref="757685578"/>
 																				<bool key="NSEnabled">YES</bool>
 																				<object class="NSButtonCell" key="NSCell" id="954829803">
 																					<int key="NSCellFlags">67239424</int>
@@ -1047,13 +1047,13 @@
 																				</object>
 																			</object>
 																		</array>
-																		<string key="NSFrameSize">{418, 50}</string>
+																		<string key="NSFrameSize">{418, 35}</string>
 																		<reference key="NSSuperview" ref="501083345"/>
 																		<reference key="NSWindow"/>
 																		<reference key="NSNextKeyView" ref="496764404"/>
 																	</object>
 																</array>
-																<string key="NSFrame">{{122, 24}, {418, 50}}</string>
+																<string key="NSFrame">{{122, 39}, {418, 35}}</string>
 																<reference key="NSSuperview" ref="358119777"/>
 																<reference key="NSWindow"/>
 																<reference key="NSNextKeyView" ref="1007315635"/>
@@ -1123,19 +1123,43 @@
 															<object class="NSTextField" id="173689463">
 																<reference key="NSNextResponder" ref="358119777"/>
 																<int key="NSvFlags">268</int>
-																<string key="NSFrame">{{138, 14}, {361, 11}}</string>
+																<string key="NSFrame">{{138, 14}, {259, 11}}</string>
 																<reference key="NSSuperview" ref="358119777"/>
 																<reference key="NSWindow"/>
-																<reference key="NSNextKeyView" ref="13458735"/>
+																<reference key="NSNextKeyView" ref="993993276"/>
 																<bool key="NSEnabled">YES</bool>
 																<object class="NSTextFieldCell" key="NSCell" id="463685063">
 																	<int key="NSCellFlags">68288064</int>
 																	<int key="NSCellFlags2">272630784</int>
-																	<string key="NSContents">Hint: new Visor windows use the "Visor" profile if available (see the Settings pane)</string>
+																	<string key="NSContents">Hint: new Visor windows use the "Visor" profile if available</string>
 																	<reference key="NSSupport" ref="705380018"/>
 																	<reference key="NSControlView" ref="173689463"/>
 																	<reference key="NSBackgroundColor" ref="36837894"/>
 																	<reference key="NSTextColor" ref="990770180"/>
+																</object>
+															</object>
+															<object class="NSButton" id="993993276">
+																<reference key="NSNextResponder" ref="358119777"/>
+																<int key="NSvFlags">268</int>
+																<string key="NSFrame">{{397, 5}, {145, 28}}</string>
+																<reference key="NSSuperview" ref="358119777"/>
+																<reference key="NSWindow"/>
+																<reference key="NSNextKeyView" ref="13458735"/>
+																<string key="NSReuseIdentifierKey">_NS:161</string>
+																<bool key="NSEnabled">YES</bool>
+																<object class="NSButtonCell" key="NSCell" id="292235493">
+																	<int key="NSCellFlags">604110336</int>
+																	<int key="NSCellFlags2">134348800</int>
+																	<string key="NSContents">Create it for me</string>
+																	<reference key="NSSupport" ref="26"/>
+																	<string key="NSCellIdentifier">_NS:161</string>
+																	<reference key="NSControlView" ref="993993276"/>
+																	<int key="NSButtonFlags">-2038284033</int>
+																	<int key="NSButtonFlags2">129</int>
+																	<string key="NSAlternateContents"/>
+																	<string key="NSKeyEquivalent"/>
+																	<int key="NSPeriodicDelay">200</int>
+																	<int key="NSPeriodicInterval">25</int>
 																</object>
 															</object>
 														</array>
@@ -2240,6 +2264,22 @@
 					</object>
 					<int key="connectionID">1005</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">createVisorProfile:</string>
+						<reference key="source" ref="800334684"/>
+						<reference key="destination" ref="993993276"/>
+					</object>
+					<int key="connectionID">1100</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">createProfileButton_</string>
+						<reference key="source" ref="800334684"/>
+						<reference key="destination" ref="993993276"/>
+					</object>
+					<int key="connectionID">1101</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -2463,6 +2503,7 @@
 							<reference ref="810381914"/>
 							<reference ref="173689463"/>
 							<reference ref="501083345"/>
+							<reference ref="993993276"/>
 						</array>
 						<reference key="parent" ref="164090357"/>
 					</object>
@@ -3057,6 +3098,19 @@
 						<reference key="object" ref="672022006"/>
 						<reference key="parent" ref="170888360"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">1098</int>
+						<reference key="object" ref="993993276"/>
+						<array class="NSMutableArray" key="children">
+							<reference ref="292235493"/>
+						</array>
+						<reference key="parent" ref="659467190"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">1099</int>
+						<reference key="object" ref="292235493"/>
+						<reference key="parent" ref="993993276"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -3071,6 +3125,8 @@
 				<string key="1095.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1096.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1097.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="1098.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="1099.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="385.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="385.IBWindowTemplateEditedContentRect">{{346, 383}, {638, 495}}</string>
 				<boolean value="NO" key="385.NSWindowTemplate.visibleAtLaunch"/>
@@ -3237,7 +3293,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">1097</int>
+			<int key="maxID">1101</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -3312,6 +3368,7 @@
 					<dictionary class="NSMutableDictionary" key="actions">
 						<string key="chooseBackgroundComposition:">id</string>
 						<string key="closeTransparencyHelpPanel:">id</string>
+						<string key="createVisorProfile:">id</string>
 						<string key="orderOutConfiguration:">id</string>
 						<string key="showPrefs:">id</string>
 						<string key="showTransparencyHelpPanel:">id</string>
@@ -3326,6 +3383,10 @@
 						</object>
 						<object class="IBActionInfo" key="closeTransparencyHelpPanel:">
 							<string key="name">closeTransparencyHelpPanel:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="createVisorProfile:">
+							<string key="name">createVisorProfile:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="orderOutConfiguration:">
@@ -3354,6 +3415,7 @@
 						</object>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="createProfileButton_">NSButton</string>
 						<string key="infoLine">WebView</string>
 						<string key="modifierIcon1_">ModifierButtonImageView</string>
 						<string key="modifierIcon2_">ModifierButtonImageView</string>
@@ -3363,6 +3425,10 @@
 						<string key="transparencyHelpPanel">NSPanel</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="createProfileButton_">
+							<string key="name">createProfileButton_</string>
+							<string key="candidateClassName">NSButton</string>
+						</object>
 						<object class="IBToOneOutletInfo" key="infoLine">
 							<string key="name">infoLine</string>
 							<string key="candidateClassName">WebView</string>
