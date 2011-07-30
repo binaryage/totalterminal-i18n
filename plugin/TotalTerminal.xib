@@ -655,7 +655,7 @@
 															<object class="NSTextField" id="757685578">
 																<reference key="NSNextResponder" ref="358119777"/>
 																<int key="NSvFlags">268</int>
-																<string key="NSFrame">{{138, 62}, {48, 17}}</string>
+																<string key="NSFrame">{{141, 62}, {48, 17}}</string>
 																<reference key="NSSuperview" ref="358119777"/>
 																<reference key="NSWindow"/>
 																<reference key="NSNextKeyView" ref="35758474"/>
@@ -1825,22 +1825,6 @@
 					<int key="connectionID">921</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.VisorBackgroundAnimationOpacity</string>
-						<reference key="source" ref="1044312482"/>
-						<reference key="destination" ref="367619262"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="1044312482"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">value: values.VisorBackgroundAnimationOpacity</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.VisorBackgroundAnimationOpacity</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">923</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">formatter</string>
 						<reference key="source" ref="1044312482"/>
@@ -2023,22 +2007,6 @@
 						</object>
 					</object>
 					<int key="connectionID">990</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.TotalTerminalPasteOnRightclick</string>
-						<reference key="source" ref="273687589"/>
-						<reference key="destination" ref="367619262"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="273687589"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">value: values.TotalTerminalPasteOnRightclick</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.TotalTerminalPasteOnRightclick</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">991</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
@@ -2280,6 +2248,38 @@
 					</object>
 					<int key="connectionID">1101</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.TotalTerminalPasteOnRightClick</string>
+						<reference key="source" ref="273687589"/>
+						<reference key="destination" ref="367619262"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="273687589"/>
+							<reference key="NSDestination" ref="367619262"/>
+							<string key="NSLabel">value: values.TotalTerminalPasteOnRightClick</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.TotalTerminalPasteOnRightClick</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1102</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.TotalTerminalVisorBackgroundAnimationOpacity</string>
+						<reference key="source" ref="1044312482"/>
+						<reference key="destination" ref="367619262"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="1044312482"/>
+							<reference key="NSDestination" ref="367619262"/>
+							<string key="NSLabel">value: values.TotalTerminalVisorBackgroundAnimationOpacity</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.TotalTerminalVisorBackgroundAnimationOpacity</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1103</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -2483,8 +2483,6 @@
 							<reference ref="356414757"/>
 							<reference ref="950951407"/>
 							<reference ref="709687337"/>
-							<reference ref="421193102"/>
-							<reference ref="35758474"/>
 							<reference ref="1044312482"/>
 							<reference ref="414267695"/>
 							<reference ref="191609144"/>
@@ -2504,6 +2502,8 @@
 							<reference ref="173689463"/>
 							<reference ref="501083345"/>
 							<reference ref="993993276"/>
+							<reference ref="35758474"/>
+							<reference ref="421193102"/>
 						</array>
 						<reference key="parent" ref="164090357"/>
 					</object>
@@ -3293,7 +3293,7 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">1101</int>
+			<int key="maxID">1103</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
