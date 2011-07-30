@@ -547,7 +547,7 @@
 																	<object class="NSComboTableView" key="NSTableView" id="634661805">
 																		<reference key="NSNextResponder"/>
 																		<int key="NSvFlags">274</int>
-																		<string key="NSFrameSize">{13, 357}</string>
+																		<string key="NSFrameSize">{13, 306}</string>
 																		<reference key="NSSuperview"/>
 																		<reference key="NSWindow"/>
 																		<bool key="NSEnabled">YES</bool>
@@ -1105,7 +1105,7 @@
 															<object class="NSTextField" id="694286384">
 																<reference key="NSNextResponder" ref="358119777"/>
 																<int key="NSvFlags">268</int>
-																<string key="NSFrame">{{358, 300}, {24, 14}}</string>
+																<string key="NSFrame">{{358, 300}, {25, 14}}</string>
 																<reference key="NSSuperview" ref="358119777"/>
 																<reference key="NSWindow"/>
 																<reference key="NSNextKeyView" ref="444856438"/>
