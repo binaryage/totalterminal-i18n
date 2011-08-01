@@ -55,7 +55,7 @@ end
 file = ARGV[0] 
 files = [{
     :input     => File.read(file),
-    :filename  => "TotalFinder.crash",
+    :filename  => "TotalTerminal.crash",
     :extension => (File.extname(file) if file.include?('.'))
 }]
 puts Gist.write(files, true)
