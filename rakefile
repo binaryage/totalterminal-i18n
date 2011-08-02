@@ -513,4 +513,20 @@ task :create_localization do
     create_localizations_for_project
 end
 
+desc "sync localizations from totalfinder's i18n repo"
+task :sync_i18n do
+    Dir.chdir(File.join(ROOT_DIR, 'crashwatcher')) do
+        sys("rm -rf *.lproj")
+        sys("cp -r ~/code/totalfinder/crashwatcher-resources/*.lproj .")
+    end
+end
+
+desc "sync xib from totalfinder's i18n repo"
+task :sync_xib do
+    Dir.chdir(File.join(ROOT_DIR, 'crashwatcher')) do
+        sys("rm -f *.xib")
+        sys("cp ~/code/totalfinder/crashwatcher-resources/*.xib .")
+    end
+end
+
 task :default => :restart
