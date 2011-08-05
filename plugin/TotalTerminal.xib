@@ -874,7 +874,7 @@
 															<object class="NSButton" id="709687337">
 																<reference key="NSNextResponder" ref="358119777"/>
 																<int key="NSvFlags">268</int>
-																<string key="NSFrame">{{140, 106}, {153, 18}}</string>
+																<string key="NSFrame">{{140, 106}, {286, 18}}</string>
 																<reference key="NSSuperview" ref="358119777"/>
 																<reference key="NSWindow"/>
 																<reference key="NSNextKeyView" ref="772707091"/>
@@ -882,7 +882,7 @@
 																<object class="NSButtonCell" key="NSCell" id="706998821">
 																	<int key="NSCellFlags">67239424</int>
 																	<int key="NSCellFlags2">0</int>
-																	<string key="NSContents">Animate Background</string>
+																	<string key="NSContents">Animate Background using Quartz Compositions:</string>
 																	<reference key="NSSupport" ref="70898476"/>
 																	<reference key="NSControlView" ref="709687337"/>
 																	<int key="NSButtonFlags">1211912703</int>
