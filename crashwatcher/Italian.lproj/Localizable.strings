@@ -1,7 +1,7 @@
 "crashDialogHeader" = "TotalTerminal si è chiuso improvvisamente";
 "crashDialogMsg" = "Siamo spiacenti, ma TotalTerminal ha incontrato un problema inaspettato e ha mandato in crash il Terminale.";
 "crashDialogNote" = "Nota: TotalTerminal.app va riavviato manualmente.";
-"crashDialogExplanation" = ""Il tasto Invia manderà il Resoconto al sito gist.github.com e lancerà Mail.app con il modello di email.";
+"crashDialogExplanation" = "Il tasto Invia manderà il Resoconto al sito gist.github.com e lancerà Mail.app con il modello di email.";
 
 "failDialogHeader" = "Impossibile inviare il Resoconto al sito gist.github.com";
 "failDialogMsg1" = "È successo un inconveniente. Non è stato possibile trovare il Resoconto nella tua cartella ~/Logs/CrashReporter.";
