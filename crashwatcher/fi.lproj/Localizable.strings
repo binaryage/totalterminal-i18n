@@ -1,6 +1,6 @@
-"crashDialogHeader" = "TotalFinder lopetti yllättäen toimintansa";
-"crashDialogMsg" = "Pahoittelumme, sillä TotalFinder kohtasi ongelman ja kaatoi Finderin.";
-"crashDialogNote" = "Huomio: Finder käynnistettiin automaattisesti uudestaan mutta TotalFinder.app pitää käynnistää itse uudelleen.";
+"crashDialogHeader" = "TotalTerminal lopetti yllättäen toimintansa";
+"crashDialogMsg" = "Pahoittelumme, sillä TotalTerminal kohtasi ongelman ja kaatoi Terminalin.";
+"crashDialogNote" = "Note: You have to launch TotalTerminal.app again.";
 "crashDialogExplanation" = "Lähetä-nappi tallentaa kaatumisraportin sähköpostiviestiin ja lähettää sen Mail.app:lla osoitteeseen gist.github.com.";
 
 "failDialogHeader" = "Kaatumisraporttia ei voitu lähettää osoitteeseen gist.github.com";
