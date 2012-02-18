@@ -2,13 +2,13 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">11A511</string>
-		<string key="IBDocument.InterfaceBuilderVersion">1617</string>
-		<string key="IBDocument.AppKitVersion">1138</string>
-		<string key="IBDocument.HIToolboxVersion">566.00</string>
+		<string key="IBDocument.SystemVersion">11D50</string>
+		<string key="IBDocument.InterfaceBuilderVersion">2177</string>
+		<string key="IBDocument.AppKitVersion">1138.32</string>
+		<string key="IBDocument.HIToolboxVersion">568.00</string>
 		<dictionary class="NSMutableDictionary" key="IBDocument.PluginVersions">
-			<string key="com.apple.InterfaceBuilder.CocoaPlugin">1617</string>
-			<string key="com.apple.WebKitIBPlugin">518</string>
+			<string key="com.apple.InterfaceBuilder.CocoaPlugin">2177</string>
+			<string key="com.apple.WebKitIBPlugin">1117</string>
 		</dictionary>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>NSSliderCell</string>
@@ -38,7 +38,10 @@
 			<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 			<string>com.apple.WebKitIBPlugin</string>
 		</array>
-		<dictionary class="NSMutableDictionary" key="IBDocument.Metadata"/>
+		<object class="NSMutableDictionary" key="IBDocument.Metadata">
+			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
+			<integer value="1" key="NS.object.0"/>
+		</object>
 		<array class="NSMutableArray" key="IBDocument.RootObjects" id="556985257">
 			<object class="NSCustomObject" id="800334684">
 				<string key="NSClassName">TotalTerminal</string>
@@ -114,7 +117,6 @@
 							<string key="NSFrame">{{20, 78}, {591, 536}}</string>
 							<reference key="NSSuperview" ref="249417821"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="164090357"/>
 							<array class="NSMutableArray" key="NSTabViewItems">
 								<object class="NSTabViewItem" id="463743529">
 									<string key="NSIdentifier">VisorPane</string>
@@ -380,7 +382,7 @@
 																<string key="NSFrame">{{359, 268}, {104, 18}}</string>
 																<reference key="NSSuperview" ref="358119777"/>
 																<reference key="NSWindow"/>
-																<reference key="NSNextKeyView" ref="373575250"/>
+																<reference key="NSNextKeyView"/>
 																<bool key="NSEnabled">YES</bool>
 																<object class="NSButtonCell" key="NSCell" id="167857849">
 																	<int key="NSCellFlags">-2080244224</int>
@@ -388,30 +390,6 @@
 																	<string key="NSContents">Hide on Escape</string>
 																	<reference key="NSSupport" ref="70898476"/>
 																	<reference key="NSControlView" ref="1008250074"/>
-																	<int key="NSButtonFlags">1211912703</int>
-																	<int key="NSButtonFlags2">2</int>
-																	<reference key="NSNormalImage" ref="838894916"/>
-																	<reference key="NSAlternateImage" ref="267369008"/>
-																	<string key="NSAlternateContents"/>
-																	<string key="NSKeyEquivalent"/>
-																	<int key="NSPeriodicDelay">200</int>
-																	<int key="NSPeriodicInterval">25</int>
-																</object>
-															</object>
-															<object class="NSButton" id="373575250">
-																<reference key="NSNextResponder" ref="358119777"/>
-																<int key="NSvFlags">268</int>
-																<string key="NSFrame">{{359, 248}, {111, 18}}</string>
-																<reference key="NSSuperview" ref="358119777"/>
-																<reference key="NSWindow"/>
-																<reference key="NSNextKeyView" ref="267472084"/>
-																<bool key="NSEnabled">YES</bool>
-																<object class="NSButtonCell" key="NSCell" id="57563982">
-																	<int key="NSCellFlags">-2080244224</int>
-																	<int key="NSCellFlags2">0</int>
-																	<string key="NSContents">Show on Reopen</string>
-																	<reference key="NSSupport" ref="70898476"/>
-																	<reference key="NSControlView" ref="373575250"/>
 																	<int key="NSButtonFlags">1211912703</int>
 																	<int key="NSButtonFlags2">2</int>
 																	<reference key="NSNormalImage" ref="838894916"/>
@@ -459,13 +437,13 @@
 																	<object class="NSComboTableView" key="NSTableView" id="764013477">
 																		<reference key="NSNextResponder"/>
 																		<int key="NSvFlags">274</int>
-																		<string key="NSFrameSize">{13, 0}</string>
+																		<string key="NSFrameSize">{15, 0}</string>
 																		<reference key="NSSuperview"/>
 																		<reference key="NSWindow"/>
 																		<bool key="NSEnabled">YES</bool>
 																		<array class="NSMutableArray" key="NSTableColumns">
 																			<object class="NSTableColumn">
-																				<double key="NSWidth">10</double>
+																				<double key="NSWidth">12</double>
 																				<double key="NSMinWidth">10</double>
 																				<double key="NSMaxWidth">1000</double>
 																				<object class="NSTableHeaderCell" key="NSHeaderCell">
@@ -516,7 +494,7 @@
 																		</object>
 																		<double key="NSRowHeight">16</double>
 																		<string key="NSAction">tableViewAction:</string>
-																		<int key="NSTvFlags">-765427712</int>
+																		<int key="NSTvFlags">-767524864</int>
 																		<reference key="NSDelegate" ref="663389409"/>
 																		<reference key="NSTarget" ref="663389409"/>
 																		<int key="NSColumnAutoresizingStyle">1</int>
@@ -1742,14 +1720,6 @@
 			<array class="NSMutableArray" key="connectionRecords">
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">dataSource</string>
-						<reference key="source" ref="414267695"/>
-						<reference key="destination" ref="800334684"/>
-					</object>
-					<int key="connectionID">532</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
 						<string key="label">settingsWindow</string>
 						<reference key="source" ref="800334684"/>
 						<reference key="destination" ref="365580829"/>
@@ -1765,64 +1735,12 @@
 					<int key="connectionID">568</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">policyDelegate</string>
-						<reference key="source" ref="302318399"/>
-						<reference key="destination" ref="800334684"/>
-					</object>
-					<int key="connectionID">570</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="365580829"/>
-						<reference key="destination" ref="800334684"/>
-					</object>
-					<int key="connectionID">573</int>
-				</object>
-				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
 						<string key="label">chooseBackgroundComposition:</string>
 						<reference key="source" ref="800334684"/>
 						<reference key="destination" ref="421193102"/>
 					</object>
 					<int key="connectionID">597</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">enabled: values.VisorUseBackgroundAnimation</string>
-						<reference key="source" ref="757685578"/>
-						<reference key="destination" ref="367619262"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="757685578"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">enabled: values.VisorUseBackgroundAnimation</string>
-							<string key="NSBinding">enabled</string>
-							<string key="NSKeyPath">values.VisorUseBackgroundAnimation</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">878</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">hidden: shouldShowTransparencyAlert</string>
-						<reference key="source" ref="501083345"/>
-						<reference key="destination" ref="800334684"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="501083345"/>
-							<reference key="NSDestination" ref="800334684"/>
-							<string key="NSLabel">hidden: shouldShowTransparencyAlert</string>
-							<string key="NSBinding">hidden</string>
-							<string key="NSKeyPath">shouldShowTransparencyAlert</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSValueTransformerName</string>
-								<string key="NS.object.0">NSNegateBoolean</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">886</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
@@ -1842,54 +1760,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
-						<string key="label">takeFloatValueFrom:</string>
-						<reference key="source" ref="35758474"/>
-						<reference key="destination" ref="1044312482"/>
-					</object>
-					<int key="connectionID">921</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">formatter</string>
-						<reference key="source" ref="1044312482"/>
-						<reference key="destination" ref="285514435"/>
-					</object>
-					<int key="connectionID">925</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: automaticallyChecksForUpdates</string>
-						<reference key="source" ref="205981044"/>
-						<reference key="destination" ref="1058479630"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="205981044"/>
-							<reference key="NSDestination" ref="1058479630"/>
-							<string key="NSLabel">value: automaticallyChecksForUpdates</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">automaticallyChecksForUpdates</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">952</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.TotalTerminalUsePreReleases</string>
-						<reference key="source" ref="1058280422"/>
-						<reference key="destination" ref="367619262"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="1058280422"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">value: values.TotalTerminalUsePreReleases</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.TotalTerminalUsePreReleases</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">953</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
 						<string key="label">showTransparencyHelpPanel:</string>
 						<reference key="source" ref="800334684"/>
 						<reference key="destination" ref="64293574"/>
@@ -1903,22 +1773,6 @@
 						<reference key="destination" ref="108515224"/>
 					</object>
 					<int key="connectionID">959</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.TotalTerminalDontCustomizeDockIcon</string>
-						<reference key="source" ref="170888360"/>
-						<reference key="destination" ref="367619262"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="170888360"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">value: values.TotalTerminalDontCustomizeDockIcon</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.TotalTerminalDontCustomizeDockIcon</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">964</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -1938,67 +1792,35 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">delegate</string>
-						<reference key="source" ref="728195589"/>
-						<reference key="destination" ref="800334684"/>
+						<string key="label">preferencesView</string>
+						<reference key="source" ref="800334684"/>
+						<reference key="destination" ref="164090357"/>
 					</object>
-					<int key="connectionID">984</int>
+					<int key="connectionID">1004</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">createVisorProfile:</string>
+						<reference key="source" ref="800334684"/>
+						<reference key="destination" ref="993993276"/>
+					</object>
+					<int key="connectionID">1100</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">createProfileButton_</string>
+						<reference key="source" ref="800334684"/>
+						<reference key="destination" ref="993993276"/>
+					</object>
+					<int key="connectionID">1101</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
 						<string key="label">delegate</string>
-						<reference key="source" ref="444856438"/>
+						<reference key="source" ref="365580829"/>
 						<reference key="destination" ref="800334684"/>
 					</object>
-					<int key="connectionID">985</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.TotalTerminalVisorHotKey2Enabled</string>
-						<reference key="source" ref="885853248"/>
-						<reference key="destination" ref="367619262"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="885853248"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">value: values.TotalTerminalVisorHotKey2Enabled</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.TotalTerminalVisorHotKey2Enabled</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">986</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.TotalTerminalVisorHideOnEscape</string>
-						<reference key="source" ref="1008250074"/>
-						<reference key="destination" ref="367619262"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="1008250074"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">value: values.TotalTerminalVisorHideOnEscape</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.TotalTerminalVisorHideOnEscape</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">987</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.TotalTerminalVisorShowOnReopen</string>
-						<reference key="source" ref="373575250"/>
-						<reference key="destination" ref="367619262"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="373575250"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">value: values.TotalTerminalVisorShowOnReopen</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.TotalTerminalVisorShowOnReopen</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">988</int>
+					<int key="connectionID">573</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
@@ -2017,52 +1839,12 @@
 					<int key="connectionID">989</int>
 				</object>
 				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.TotalTerminalCopyOnSelect</string>
-						<reference key="source" ref="773473875"/>
-						<reference key="destination" ref="367619262"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="773473875"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">value: values.TotalTerminalCopyOnSelect</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.TotalTerminalCopyOnSelect</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">dataSource</string>
+						<reference key="source" ref="414267695"/>
+						<reference key="destination" ref="800334684"/>
 					</object>
-					<int key="connectionID">990</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.TotalTerminalShowStatusItem</string>
-						<reference key="source" ref="195226599"/>
-						<reference key="destination" ref="367619262"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="195226599"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">value: values.TotalTerminalShowStatusItem</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.TotalTerminalShowStatusItem</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">992</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.TotalTerminalVisorPosition</string>
-						<reference key="source" ref="191609144"/>
-						<reference key="destination" ref="367619262"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="191609144"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">value: values.TotalTerminalVisorPosition</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.TotalTerminalVisorPosition</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">993</int>
+					<int key="connectionID">532</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
@@ -2086,19 +1868,51 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.TotalTerminalVisorUseSlide</string>
-						<reference key="source" ref="356414757"/>
+						<string key="label">value: values.TotalTerminalVisorPosition</string>
+						<reference key="source" ref="191609144"/>
 						<reference key="destination" ref="367619262"/>
 						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="356414757"/>
+							<reference key="NSSource" ref="191609144"/>
 							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">value: values.TotalTerminalVisorUseSlide</string>
+							<string key="NSLabel">value: values.TotalTerminalVisorPosition</string>
 							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.TotalTerminalVisorUseSlide</string>
+							<string key="NSKeyPath">values.TotalTerminalVisorPosition</string>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">995</int>
+					<int key="connectionID">993</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.TotalTerminalShowStatusItem</string>
+						<reference key="source" ref="195226599"/>
+						<reference key="destination" ref="367619262"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="195226599"/>
+							<reference key="NSDestination" ref="367619262"/>
+							<string key="NSLabel">value: values.TotalTerminalShowStatusItem</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.TotalTerminalShowStatusItem</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">992</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.TotalTerminalVisorHideOnEscape</string>
+						<reference key="source" ref="1008250074"/>
+						<reference key="destination" ref="367619262"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="1008250074"/>
+							<reference key="NSDestination" ref="367619262"/>
+							<string key="NSLabel">value: values.TotalTerminalVisorHideOnEscape</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.TotalTerminalVisorHideOnEscape</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">987</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
@@ -2115,6 +1929,110 @@
 						</object>
 					</object>
 					<int key="connectionID">996</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.TotalTerminalVisorUseSlide</string>
+						<reference key="source" ref="356414757"/>
+						<reference key="destination" ref="367619262"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="356414757"/>
+							<reference key="NSDestination" ref="367619262"/>
+							<string key="NSLabel">value: values.TotalTerminalVisorUseSlide</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.TotalTerminalVisorUseSlide</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">995</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.TotalTerminalCopyOnSelect</string>
+						<reference key="source" ref="773473875"/>
+						<reference key="destination" ref="367619262"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="773473875"/>
+							<reference key="NSDestination" ref="367619262"/>
+							<string key="NSLabel">value: values.TotalTerminalCopyOnSelect</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.TotalTerminalCopyOnSelect</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">990</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.TotalTerminalVisorHotKey2Enabled</string>
+						<reference key="source" ref="885853248"/>
+						<reference key="destination" ref="367619262"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="885853248"/>
+							<reference key="NSDestination" ref="367619262"/>
+							<string key="NSLabel">value: values.TotalTerminalVisorHotKey2Enabled</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.TotalTerminalVisorHotKey2Enabled</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">986</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.TotalTerminalVisorAnimationSpeed</string>
+						<reference key="source" ref="359207179"/>
+						<reference key="destination" ref="367619262"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="359207179"/>
+							<reference key="NSDestination" ref="367619262"/>
+							<string key="NSLabel">value: values.TotalTerminalVisorAnimationSpeed</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.TotalTerminalVisorAnimationSpeed</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1005</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.TotalTerminalVisorAnimationSpeed</string>
+						<reference key="source" ref="732844756"/>
+						<reference key="destination" ref="367619262"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="732844756"/>
+							<reference key="NSDestination" ref="367619262"/>
+							<string key="NSLabel">value: values.TotalTerminalVisorAnimationSpeed</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.TotalTerminalVisorAnimationSpeed</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">998</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">policyDelegate</string>
+						<reference key="source" ref="302318399"/>
+						<reference key="destination" ref="800334684"/>
+					</object>
+					<int key="connectionID">570</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.TotalTerminalPasteOnRightClick</string>
+						<reference key="source" ref="273687589"/>
+						<reference key="destination" ref="367619262"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="273687589"/>
+							<reference key="NSDestination" ref="367619262"/>
+							<string key="NSLabel">value: values.TotalTerminalPasteOnRightClick</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.TotalTerminalPasteOnRightClick</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1102</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
@@ -2138,22 +2056,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.TotalTerminalVisorAnimationSpeed</string>
-						<reference key="source" ref="732844756"/>
-						<reference key="destination" ref="367619262"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="732844756"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">value: values.TotalTerminalVisorAnimationSpeed</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.TotalTerminalVisorAnimationSpeed</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">998</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
 						<string key="label">value: values.TotalTerminalVisorBackgroundAnimationFile</string>
 						<reference key="source" ref="772707091"/>
 						<reference key="destination" ref="367619262"/>
@@ -2171,6 +2073,22 @@
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
 						<string key="label">enabled: values.TotalTerminalVisorUseBackgroundAnimation</string>
+						<reference key="source" ref="772707091"/>
+						<reference key="destination" ref="367619262"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="772707091"/>
+							<reference key="NSDestination" ref="367619262"/>
+							<string key="NSLabel">enabled: values.TotalTerminalVisorUseBackgroundAnimation</string>
+							<string key="NSBinding">enabled</string>
+							<string key="NSKeyPath">values.TotalTerminalVisorUseBackgroundAnimation</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">1003</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">enabled: values.TotalTerminalVisorUseBackgroundAnimation</string>
 						<reference key="source" ref="421193102"/>
 						<reference key="destination" ref="367619262"/>
 						<object class="NSNibBindingConnector" key="connector">
@@ -2183,6 +2101,30 @@
 						</object>
 					</object>
 					<int key="connectionID">1000</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">enabled: values.VisorUseBackgroundAnimation</string>
+						<reference key="source" ref="757685578"/>
+						<reference key="destination" ref="367619262"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="757685578"/>
+							<reference key="NSDestination" ref="367619262"/>
+							<string key="NSLabel">enabled: values.VisorUseBackgroundAnimation</string>
+							<string key="NSBinding">enabled</string>
+							<string key="NSKeyPath">values.VisorUseBackgroundAnimation</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">878</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">takeFloatValueFrom:</string>
+						<reference key="source" ref="35758474"/>
+						<reference key="destination" ref="1044312482"/>
+					</object>
+					<int key="connectionID">921</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
@@ -2218,75 +2160,31 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">enabled: values.TotalTerminalVisorUseBackgroundAnimation</string>
-						<reference key="source" ref="772707091"/>
-						<reference key="destination" ref="367619262"/>
+						<string key="label">hidden: shouldShowTransparencyAlert</string>
+						<reference key="source" ref="501083345"/>
+						<reference key="destination" ref="800334684"/>
 						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="772707091"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">enabled: values.TotalTerminalVisorUseBackgroundAnimation</string>
-							<string key="NSBinding">enabled</string>
-							<string key="NSKeyPath">values.TotalTerminalVisorUseBackgroundAnimation</string>
+							<reference key="NSSource" ref="501083345"/>
+							<reference key="NSDestination" ref="800334684"/>
+							<string key="NSLabel">hidden: shouldShowTransparencyAlert</string>
+							<string key="NSBinding">hidden</string>
+							<string key="NSKeyPath">shouldShowTransparencyAlert</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSValueTransformerName</string>
+								<string key="NS.object.0">NSNegateBoolean</string>
+							</object>
 							<int key="NSNibBindingConnectorVersion">2</int>
 						</object>
 					</object>
-					<int key="connectionID">1003</int>
+					<int key="connectionID">886</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">preferencesView</string>
-						<reference key="source" ref="800334684"/>
-						<reference key="destination" ref="164090357"/>
+						<string key="label">formatter</string>
+						<reference key="source" ref="1044312482"/>
+						<reference key="destination" ref="285514435"/>
 					</object>
-					<int key="connectionID">1004</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.TotalTerminalVisorAnimationSpeed</string>
-						<reference key="source" ref="359207179"/>
-						<reference key="destination" ref="367619262"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="359207179"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">value: values.TotalTerminalVisorAnimationSpeed</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.TotalTerminalVisorAnimationSpeed</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1005</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBActionConnection" key="connection">
-						<string key="label">createVisorProfile:</string>
-						<reference key="source" ref="800334684"/>
-						<reference key="destination" ref="993993276"/>
-					</object>
-					<int key="connectionID">1100</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBOutletConnection" key="connection">
-						<string key="label">createProfileButton_</string>
-						<reference key="source" ref="800334684"/>
-						<reference key="destination" ref="993993276"/>
-					</object>
-					<int key="connectionID">1101</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
-						<string key="label">value: values.TotalTerminalPasteOnRightClick</string>
-						<reference key="source" ref="273687589"/>
-						<reference key="destination" ref="367619262"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="273687589"/>
-							<reference key="NSDestination" ref="367619262"/>
-							<string key="NSLabel">value: values.TotalTerminalPasteOnRightClick</string>
-							<string key="NSBinding">value</string>
-							<string key="NSKeyPath">values.TotalTerminalPasteOnRightClick</string>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">1102</int>
+					<int key="connectionID">925</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
@@ -2303,6 +2201,70 @@
 						</object>
 					</object>
 					<int key="connectionID">1103</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: automaticallyChecksForUpdates</string>
+						<reference key="source" ref="205981044"/>
+						<reference key="destination" ref="1058479630"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="205981044"/>
+							<reference key="NSDestination" ref="1058479630"/>
+							<string key="NSLabel">value: automaticallyChecksForUpdates</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">automaticallyChecksForUpdates</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">952</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.TotalTerminalUsePreReleases</string>
+						<reference key="source" ref="1058280422"/>
+						<reference key="destination" ref="367619262"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="1058280422"/>
+							<reference key="NSDestination" ref="367619262"/>
+							<string key="NSLabel">value: values.TotalTerminalUsePreReleases</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.TotalTerminalUsePreReleases</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">953</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">value: values.TotalTerminalDontCustomizeDockIcon</string>
+						<reference key="source" ref="170888360"/>
+						<reference key="destination" ref="367619262"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="170888360"/>
+							<reference key="NSDestination" ref="367619262"/>
+							<string key="NSLabel">value: values.TotalTerminalDontCustomizeDockIcon</string>
+							<string key="NSBinding">value</string>
+							<string key="NSKeyPath">values.TotalTerminalDontCustomizeDockIcon</string>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">964</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="728195589"/>
+						<reference key="destination" ref="800334684"/>
+					</object>
+					<int key="connectionID">984</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="444856438"/>
+						<reference key="destination" ref="800334684"/>
+					</object>
+					<int key="connectionID">985</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
@@ -2516,7 +2478,6 @@
 						<reference key="object" ref="659467190"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="1008250074"/>
-							<reference ref="373575250"/>
 							<reference ref="296870557"/>
 							<reference ref="757685578"/>
 							<reference ref="182762631"/>
@@ -2633,19 +2594,6 @@
 							<reference ref="167857849"/>
 						</array>
 						<reference key="parent" ref="659467190"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">488</int>
-						<reference key="object" ref="373575250"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="57563982"/>
-						</array>
-						<reference key="parent" ref="659467190"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">489</int>
-						<reference key="object" ref="57563982"/>
-						<reference key="parent" ref="373575250"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">505</int>
@@ -3213,8 +3161,6 @@
 				<string key="485.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="486.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="487.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="488.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
-				<string key="489.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="490.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="491.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="492.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -3425,6 +3371,7 @@
 						<string key="chooseBackgroundComposition:">id</string>
 						<string key="closeTransparencyHelpPanel:">id</string>
 						<string key="createVisorProfile:">id</string>
+						<string key="orderFrontColourConfiguration:">id</string>
 						<string key="orderOutConfiguration:">id</string>
 						<string key="showPrefs:">id</string>
 						<string key="showTransparencyHelpPanel:">id</string>
@@ -3443,6 +3390,10 @@
 						</object>
 						<object class="IBActionInfo" key="createVisorProfile:">
 							<string key="name">createVisorProfile:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="orderFrontColourConfiguration:">
+							<string key="name">orderFrontColourConfiguration:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="orderOutConfiguration:">
@@ -3471,6 +3422,7 @@
 						</object>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="colorsWindow_">NSWindow</string>
 						<string key="createProfileButton_">NSButton</string>
 						<string key="infoLine">WebView</string>
 						<string key="modifierIcon1_">ModifierButtonImageView</string>
@@ -3481,6 +3433,10 @@
 						<string key="transparencyHelpPanel">NSPanel</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="colorsWindow_">
+							<string key="name">colorsWindow_</string>
+							<string key="candidateClassName">NSWindow</string>
+						</object>
 						<object class="IBToOneOutletInfo" key="createProfileButton_">
 							<string key="name">createProfileButton_</string>
 							<string key="candidateClassName">NSButton</string>
@@ -3517,24 +3473,6 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/TotalTerminal.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">WebView</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">reloadFromOrigin:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">reloadFromOrigin:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">reloadFromOrigin:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/WebView.h</string>
 					</object>
 				</object>
 			</array>
