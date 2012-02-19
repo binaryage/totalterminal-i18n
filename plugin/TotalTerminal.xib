@@ -382,7 +382,6 @@
 																<string key="NSFrame">{{359, 268}, {104, 18}}</string>
 																<reference key="NSSuperview" ref="358119777"/>
 																<reference key="NSWindow"/>
-																<reference key="NSNextKeyView"/>
 																<bool key="NSEnabled">YES</bool>
 																<object class="NSButtonCell" key="NSCell" id="167857849">
 																	<int key="NSCellFlags">-2080244224</int>
@@ -3429,7 +3428,7 @@
 						<string key="modifierIcon2_">ModifierButtonImageView</string>
 						<string key="preferencesView">NSView</string>
 						<string key="settingsWindow">NSWindow</string>
-						<string key="statusMenu">NSMenu</string>
+						<string key="statusMenu_">NSMenu</string>
 						<string key="transparencyHelpPanel">NSPanel</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
@@ -3461,8 +3460,8 @@
 							<string key="name">settingsWindow</string>
 							<string key="candidateClassName">NSWindow</string>
 						</object>
-						<object class="IBToOneOutletInfo" key="statusMenu">
-							<string key="name">statusMenu</string>
+						<object class="IBToOneOutletInfo" key="statusMenu_">
+							<string key="name">statusMenu_</string>
 							<string key="candidateClassName">NSMenu</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="transparencyHelpPanel">
