@@ -114,7 +114,7 @@
 						<object class="NSTabView" id="481997597">
 							<reference key="NSNextResponder" ref="249417821"/>
 							<int key="NSvFlags">18</int>
-							<string key="NSFrame">{{20, 150}, {591, 464}}</string>
+							<string key="NSFrame">{{20, 145}, {591, 469}}</string>
 							<reference key="NSSuperview" ref="249417821"/>
 							<reference key="NSWindow"/>
 							<array class="NSMutableArray" key="NSTabViewItems">
@@ -144,7 +144,7 @@
 													<string>public.url</string>
 													<string>public.url-name</string>
 												</set>
-												<string key="NSFrame">{{20, 3}, {551, 21}}</string>
+												<string key="NSFrame">{{20, 8}, {551, 21}}</string>
 												<reference key="NSSuperview" ref="164090357"/>
 												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView"/>
@@ -1171,7 +1171,7 @@
 														<string key="NSReuseIdentifierKey">_NS:632</string>
 													</object>
 												</array>
-												<string key="NSFrame">{{17, 143}, {557, 316}}</string>
+												<string key="NSFrame">{{17, 148}, {557, 316}}</string>
 												<reference key="NSSuperview" ref="164090357"/>
 												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="358119777"/>
@@ -1483,7 +1483,7 @@
 														<string key="NSReuseIdentifierKey">_NS:632</string>
 													</object>
 												</array>
-												<string key="NSFrame">{{17, 23}, {557, 116}}</string>
+												<string key="NSFrame">{{17, 28}, {557, 116}}</string>
 												<reference key="NSSuperview" ref="164090357"/>
 												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="360654655"/>
@@ -1507,7 +1507,7 @@
 												<bool key="NSTransparent">NO</bool>
 											</object>
 										</array>
-										<string key="NSFrameSize">{591, 464}</string>
+										<string key="NSFrameSize">{591, 469}</string>
 										<reference key="NSSuperview" ref="481997597"/>
 										<reference key="NSWindow"/>
 										<reference key="NSNextKeyView" ref="659467190"/>
@@ -3369,12 +3369,17 @@
 					<dictionary class="NSMutableDictionary" key="actions">
 						<string key="chooseBackgroundComposition:">id</string>
 						<string key="closeTransparencyHelpPanel:">id</string>
+						<string key="crashMe:">id</string>
 						<string key="createVisorProfile:">id</string>
+						<string key="exitMe:">id</string>
+						<string key="fullScreenToggle:">id</string>
 						<string key="orderFrontColourConfiguration:">id</string>
 						<string key="orderOutConfiguration:">id</string>
 						<string key="showPrefs:">id</string>
 						<string key="showTransparencyHelpPanel:">id</string>
+						<string key="togglePinVisor:">id</string>
 						<string key="toggleVisor:">id</string>
+						<string key="uninstallMe:">id</string>
 						<string key="updateMe:">id</string>
 						<string key="visitHomepage:">id</string>
 					</dictionary>
@@ -3387,8 +3392,20 @@
 							<string key="name">closeTransparencyHelpPanel:</string>
 							<string key="candidateClassName">id</string>
 						</object>
+						<object class="IBActionInfo" key="crashMe:">
+							<string key="name">crashMe:</string>
+							<string key="candidateClassName">id</string>
+						</object>
 						<object class="IBActionInfo" key="createVisorProfile:">
 							<string key="name">createVisorProfile:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="exitMe:">
+							<string key="name">exitMe:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="fullScreenToggle:">
+							<string key="name">fullScreenToggle:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="orderFrontColourConfiguration:">
@@ -3407,8 +3424,16 @@
 							<string key="name">showTransparencyHelpPanel:</string>
 							<string key="candidateClassName">id</string>
 						</object>
+						<object class="IBActionInfo" key="togglePinVisor:">
+							<string key="name">togglePinVisor:</string>
+							<string key="candidateClassName">id</string>
+						</object>
 						<object class="IBActionInfo" key="toggleVisor:">
 							<string key="name">toggleVisor:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="uninstallMe:">
+							<string key="name">uninstallMe:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="updateMe:">
