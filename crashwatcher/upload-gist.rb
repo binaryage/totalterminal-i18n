@@ -44,6 +44,7 @@ def write(files, private_gist = false, description = nil)
   http.ca_file = ca_cert
   
   req = Net::HTTP::Post.new(url.path)
+  req.set_content_type("application/json")
   req.body = JSON.generate(data(files, private_gist, description))
   
   user, password = auth()
