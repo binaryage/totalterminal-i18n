@@ -1,6 +1,6 @@
-"crashDialogHeader" = "TotalFinder внезапно завершил работу";
-"crashDialogMsg" = "Мы извиняемся, но TotalFinder наткнулся на непредвиненную проблему и прервал работу Finder-у.";
-"crashDialogNote" = "Внимание: Finder перезапустился автоматически, но TotalFinder.app Вам необходимо запустить вручную.";
+"crashDialogHeader" = "TotalTerminal внезапно завершил работу";
+"crashDialogMsg" = "Мы извиняемся, но TotalTerminal наткнулся на непредвиненную проблему и прервал работу Finder-у.";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "Кнопка 'отправить' загрузит отчёт об ошибке на gist.github.com и откроет Mail.app с темплейтом для письма.";
 
 "failDialogHeader" = "Невозможно загрузить отчёт об ошибке на gist.github.com";

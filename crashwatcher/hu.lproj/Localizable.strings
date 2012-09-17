@@ -1,6 +1,6 @@
-"crashDialogHeader" = "A TotalFinder váratlanul kilépett";
-"crashDialogMsg" = "Sajnáljuk, de a TotalFinder váratlan hibába ütközött és a Finder összeomlott.";
-"crashDialogNote" = "Megjegyzés: A Finder automatikusan újraindul, de a TotalFindert kézzel kell újra elindítani.";
+"crashDialogHeader" = "A TotalTerminal váratlanul kilépett";
+"crashDialogMsg" = "Sajnáljuk, de a TotalTerminal váratlan hibába ütközött és a Finder összeomlott.";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "A küldés gomb megnyomására a program automatikusan hibajelentést küld a gist.github.com-ra és megnyitja a Mail alkalmazást egy előre elkészített e-maillel.";
 
 "failDialogHeader" = "A hibajelentést nem lehet feltölteni a gist.github.com-ra";

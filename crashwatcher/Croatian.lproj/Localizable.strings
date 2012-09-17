@@ -1,6 +1,6 @@
-"crashDialogHeader" = "TotalFinder se neočekivano ugasio";
-"crashDialogMsg" = "Žao nam je, ali TotalFinder je došao do neočekivanog problema i srušio Finder.";
-"crashDialogNote" = "Obavijest: Finder je automatski ponovno pokrenut, ali TotalFinder.app morate pokrenuti ponovno ručno.";
+"crashDialogHeader" = "TotalTerminal se neočekivano ugasio";
+"crashDialogMsg" = "Žao nam je, ali TotalTerminal je došao do neočekivanog problema i srušio Finder.";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "Tipka za slanje će prenijeti izvješće o rušenju na gist.github.com i pokrenuti Mail.app sa email predloškom.";
 
 "failDialogHeader" = "Ne mogu prenijeti izvješće o rušenju na gist.github.com";

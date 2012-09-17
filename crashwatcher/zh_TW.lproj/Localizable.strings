@@ -1,6 +1,6 @@
-"crashDialogHeader" = "TotalFinder 未預期的結束了";
-"crashDialogMsg" = "很抱歉，但 TotalFinder 遭遇到一個未知的問題並且使 Finder 當掉了。";
-"crashDialogNote" = "注意: Finder 將會自動重新啟動，但是你必須自行啟動 TotalFinder.app。";
+"crashDialogHeader" = "TotalTerminal 未預期的結束了";
+"crashDialogMsg" = "很抱歉，但 TotalTerminal 遭遇到一個未知的問題並且使 Finder 當掉了。";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "「傳送」按鈕將會上傳錯誤報告至 gist.github.com 並啟動 Mail.app。";
 
 "failDialogHeader" = "無法上傳錯誤報告至 gist.github.com";

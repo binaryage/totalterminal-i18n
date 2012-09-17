@@ -1,6 +1,6 @@
-"crashDialogHeader" = "TotalFinder wurde unerwartet beendet.";
-"crashDialogMsg" = "Es tut uns Leid, ein unerwartetes Problem ist in TotalFinder aufgetreten und hat den Finder zum Absturz gebracht.";
-"crashDialogNote" = "Benachrichtigung: Der Finder wurde automatisch neugestartet, Sie müssen TotalFinder.app jedoch selbst neu starten.";
+"crashDialogHeader" = "TotalTerminal wurde unerwartet beendet.";
+"crashDialogMsg" = "Es tut uns Leid, ein unerwartetes Problem ist in TotalTerminal aufgetreten und hat den Finder zum Absturz gebracht.";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "Durch das Drücken auf Senden wird eine Absturzbenachrichtigung auf gist.github.com hochgeladen und Mail.app mit einem E-Mail Entwurf geöffnet.";
 
 "failDialogHeader" = "Es ist nicht möglich den Absturzbericht auf gist.github.com hochzuladen.";

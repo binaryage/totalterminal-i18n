@@ -1,6 +1,6 @@
-"crashDialogHeader" = "TotalFinder s-a închis în mod neaşteptat";
-"crashDialogMsg" = "Ne pare rău, dar a apărut o problemă neaşteptată iar TotalFinder a închis Finder.";
-"crashDialogNote" = "Notă: Finder a fost repornit în mod automat, dar trebuie să lansați TotalFinder.app manual din nou.";
+"crashDialogHeader" = "TotalTerminal s-a închis în mod neaşteptat";
+"crashDialogMsg" = "Ne pare rău, dar a apărut o problemă neaşteptată iar TotalTerminal a închis Finder.";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "Butonul Trimite va încărca raportul de accident la gist.github.com şi va lanseza Mail.app cu şablonul de e-mail.";
 
 "failDialogHeader" = "Imposibil de a încărca raportul de accident la gist.github.com";

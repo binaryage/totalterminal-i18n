@@ -1,6 +1,6 @@
-"crashDialogHeader" = "TotalFinder został nieoczekiwanie zamknięty.";
-"crashDialogMsg" = "Przepraszamy, ale TotalFinder napotkał nieoczekiwany problem i spowodował błąd w działaniu Findera.";
-"crashDialogNote" = "Uwaga: Finder został zrestartowany automatycznie, ale musisz ponownie, ręcznie uruchomić TotalFinder.app.";
+"crashDialogHeader" = "TotalTerminal został nieoczekiwanie zamknięty.";
+"crashDialogMsg" = "Przepraszamy, ale TotalTerminal napotkał nieoczekiwany problem i spowodował błąd w działaniu Findera.";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "Przycisk wyślij, wyśle raport o błędach do gist.github.com and i uruchomi Mail.app z szablonem wiadomości.";
 
 "failDialogHeader" = "Nie można wysłać raportu do gist.github.com";

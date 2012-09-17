@@ -1,6 +1,6 @@
-"crashDialogHeader" = "TotalFinder үл мэдэгдэх шалтгаанаар хаагдлаа";
-"crashDialogMsg" = "Уучлаарай, TotalFinder-т үл мэдэгдэх алдаа гарч Finder-г гацаалаа.";
-"crashDialogNote" = "Мэдээлэл: Finder автоматаар дахин ачаалагдах болно. Харин та TotalFinder.app програмыг ажиллуулна уу.";
+"crashDialogHeader" = "TotalTerminal үл мэдэгдэх шалтгаанаар хаагдлаа";
+"crashDialogMsg" = "Уучлаарай, TotalTerminal-т үл мэдэгдэх алдаа гарч Finder-г гацаалаа.";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "Илгээх товчийг дарж алдааны мэдээллийг gist.github.com хаяг руу Mail.app програмаар хүргэнэ.";
 
 "failDialogHeader" = "Алдааны мэдээллийг gist.github.com хаяг руу илгээж чадсангүй";

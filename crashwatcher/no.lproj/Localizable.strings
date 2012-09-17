@@ -1,6 +1,6 @@
-"crashDialogHeader" = "TotalFinder has avsluttet uventet";
-"crashDialogMsg" = "Vi beklager, men TotalFinder traff et uventet problem og forårsaket en krasj av Finder.";
-"crashDialogNote" = "Merk: Finder ble started om automatisk, men du må starte om TotalFinder.app manuelt.";
+"crashDialogHeader" = "TotalTerminal has avsluttet uventet";
+"crashDialogMsg" = "Vi beklager, men TotalTerminal traff et uventet problem og forårsaket en krasj av Finder.";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "Send-knappen vil laste opp en krasj-rapport til gist.gihub.com og starte Mail.app med en e-post-mal.";
 
 "failDialogHeader" = "Kunne ikke laste opp krasj-rapport til gist.github.com";

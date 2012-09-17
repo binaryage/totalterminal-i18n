@@ -1,6 +1,6 @@
-"crashDialogHeader" = "O TotalFinder foi finalizado inesperadamente.";
-"crashDialogMsg" = "Desculpe, mas o TotalFinder encontrou um problema inesperado e travou o Finder.";
-"crashDialogNote" = "Nota: O Finder foi reiniciado automaticamente, por isso o TotalFinder.app deve ser iniciado manualmente.";
+"crashDialogHeader" = "O TotalTerminal foi finalizado inesperadamente.";
+"crashDialogMsg" = "Desculpe, mas o TotalTerminal encontrou um problema inesperado e travou o Finder.";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "O botão enviar irá enviar o relatório de travamento para gist.github.com e irá iniciar o Mail.app com um modelo de email para ser enviado.";
 
 "failDialogHeader" = "Não foi possível enviar o relatório de travamento para gist.github.com.";

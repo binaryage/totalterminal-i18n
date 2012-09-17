@@ -1,6 +1,6 @@
-"crashDialogHeader" = "TotalFinder si è chiuso improvvisamente";
-"crashDialogMsg" = "Siamo spiacenti, ma TotalFinder ha incontrato un problema inaspettato e ha mandato in crash il Finder.";
-"crashDialogNote" = "Nota: TotalTerminal.app va riavviato manualmente.";
+"crashDialogHeader" = "TotalTerminal si è chiuso improvvisamente";
+"crashDialogMsg" = "Siamo spiacenti, ma TotalTerminal ha incontrato un problema inaspettato e ha mandato in crash il Finder.";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "Il tasto Invia manderà il Resoconto al sito gist.github.com e lancerà Mail.app con il modello di email.";
 
 "failDialogHeader" = "Impossibile inviare il Resoconto al sito gist.github.com";

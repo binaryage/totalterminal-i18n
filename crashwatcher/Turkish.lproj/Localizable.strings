@@ -1,6 +1,6 @@
-"crashDialogHeader" = "TotalFinder beklenmedik bir şekilde kapanmıştır";
-"crashDialogMsg" = "Üzgünüz, TotalFinder beklenmedik bir arızadan dolayı Finder'ın kapanmasına neden olmuştur";
-"crashDialogNote" = "Not: Finder otomatik bir şekilde tekrar başlatılmıştır ama kendinizden TotalFinder.app programını başlatmanız gerekmektedir";
+"crashDialogHeader" = "TotalTerminal beklenmedik bir şekilde kapanmıştır";
+"crashDialogMsg" = "Üzgünüz, TotalTerminal beklenmedik bir arızadan dolayı Finder'ın kapanmasına neden olmuştur";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "Gönder seçeneği arızayı gist.github.com sitesine yükleyip Mail.app programını hazır bir email ile açacaktır.";
 
 "failDialogHeader" = "Arıza ile ilgili bilgiler gist.github.com'a gönderilememiştir";

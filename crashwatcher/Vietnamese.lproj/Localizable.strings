@@ -1,6 +1,6 @@
-"crashDialogHeader" = "TotalFinder bị thoát";
+"crashDialogHeader" = "TotalTerminal bị thoát";
 "crashDialogMsg" = "Chúng tôi rất, Totalfinder bị trục trặc và tự động đóng lại";
-"crashDialogNote" = "Chú ý: Finder tự động khởi động lại nhưng bạn có thể mở lại chương trình Totalfinder.app bằng phương pháp thủ công.";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "Nút gửi sẽ gửi thông báo lỗi đến gist.github.com và mở trương trình Mail.app có sẵn email mẫu.";
 
 "failDialogHeader" = "Không thể gửi thông báo lỗi đến gist.github.com";

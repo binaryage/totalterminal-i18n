@@ -1,6 +1,6 @@
-"crashDialogHeader" = "TotalFinder не передбачено завершив роботу";
-"crashDialogMsg" = "Вибачте, але в TotalFinder сталася не передбачувана помилка, що привела до завершення Finder.";
-"crashDialogNote" = "Примітка: Finder був автоматично перезапущений, але Вам потрібно самостійно запустити TotalFinder.app.";
+"crashDialogHeader" = "TotalTerminal не передбачено завершив роботу";
+"crashDialogMsg" = "Вибачте, але в TotalTerminal сталася не передбачувана помилка, що привела до завершення Finder.";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "Кнопка Відправити Email завантажить звіт на gist.github.com і відкриє шаблон повідомлення в Mail.app.";
 
 "failDialogHeader" = "Неможливо відправити звіт про помилку на gist.github.com";

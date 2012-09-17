@@ -1,6 +1,6 @@
-"crashDialogHeader" = "O TotalFinder encerrou inesperadamente";
-"crashDialogMsg" = "Lamentamos, mas o TotalFinder encontrou um problema inesperado e causou o encerramento do Finder.";
-"crashDialogNote" = "Nota: O Finder foi automaticamente reiniciado mas tem de abrir de novo o TotalFinder.app manualmente.";
+"crashDialogHeader" = "O TotalTerminal encerrou inesperadamente";
+"crashDialogMsg" = "Lamentamos, mas o TotalTerminal encontrou um problema inesperado e causou o encerramento do Finder.";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "O botão Enviar irá submeter o relatório de falha para gist.github.com e iniciar o Mail.app com um modelo de e-mail.";
 
 "failDialogHeader" = "Não foi possível submeter o relatório de falha para gist.github.com";

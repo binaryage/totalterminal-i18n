@@ -1,6 +1,6 @@
-"crashDialogHeader" = "TotalFinder가 예기치 못하게 종료되었습니다.";
-"crashDialogMsg" = "죄송합니다, TotalFinder에 예상치 못한 문제가 생겨 Finder가 충돌했습니다.";
-"crashDialogNote" = "안내: Finder는 재시작되었지만 TotalFinder.app을 수동으로 다시 실행시켜주셔야 합니다.";
+"crashDialogHeader" = "TotalTerminal가 예기치 못하게 종료되었습니다.";
+"crashDialogMsg" = "죄송합니다, TotalTerminal에 예상치 못한 문제가 생겨 Finder가 충돌했습니다.";
+"crashDialogNote" = "";
 "crashDialogExplanation" = "보내기 단추를 누르면 충돌 보고서를 gist.github.com에 올리고 해당 내용을 메일로 보내기 위해 Mail.app이 열릴 것입니다.";
 
 "failDialogHeader" = "충돌 보고서를 gist.github.com에 올릴 수 없습니다.";
