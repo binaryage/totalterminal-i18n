@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4504" systemVersion="13A569" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4504" systemVersion="13A569" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment version="1050" defaultVersion="1070" identifier="macosx"/>
+        <deployment defaultVersion="1070" identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4504"/>
     </dependencies>
     <objects>
@@ -16,12 +16,12 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="186" width="345" height="324"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1418"/>
             <view key="contentView" id="2">
                 <rect key="frame" x="0.0" y="0.0" width="345" height="324"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button verticalHuggingPriority="750" id="3">
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3">
                         <rect key="frame" x="235" y="5" width="96" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="4">
@@ -35,14 +35,14 @@ Gw
                             <action selector="orderOutConfiguration:" target="-2" id="7"/>
                         </connections>
                     </button>
-                    <box autoresizesSubviews="NO" title="Colours" borderType="line" id="59">
+                    <box autoresizesSubviews="NO" fixedFrame="YES" title="Colours" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="59">
                         <rect key="frame" x="17" y="49" width="142" height="259"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <view key="contentView">
                             <rect key="frame" x="1" y="1" width="140" height="243"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <colorWell id="26">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="26">
                                     <rect key="frame" x="18" y="210" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -50,7 +50,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.blackColour" id="31"/>
                                     </connections>
                                 </colorWell>
-                                <textField verticalHuggingPriority="750" id="23">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="23">
                                     <rect key="frame" x="67" y="101" width="38" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Blue" id="24">
@@ -59,7 +59,7 @@ Gw
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <textField verticalHuggingPriority="750" id="44">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="44">
                                     <rect key="frame" x="67" y="45" width="58" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Cyan" id="46">
@@ -68,7 +68,7 @@ Gw
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <colorWell id="41">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="41">
                                     <rect key="frame" x="18" y="70" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -76,7 +76,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.magentaColour" id="56"/>
                                     </connections>
                                 </colorWell>
-                                <colorWell id="36">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="36">
                                     <rect key="frame" x="18" y="154" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -84,7 +84,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.greenColour" id="53"/>
                                     </connections>
                                 </colorWell>
-                                <textField verticalHuggingPriority="750" id="27">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="27">
                                     <rect key="frame" x="67" y="213" width="50" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Black" id="28">
@@ -93,7 +93,7 @@ Gw
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <colorWell id="38">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="38">
                                     <rect key="frame" x="18" y="126" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -101,7 +101,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.yellowColour" id="93"/>
                                     </connections>
                                 </colorWell>
-                                <colorWell id="33">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="33">
                                     <rect key="frame" x="18" y="182" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -109,7 +109,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.redColour" id="50"/>
                                     </connections>
                                 </colorWell>
-                                <textField verticalHuggingPriority="750" id="39">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="39">
                                     <rect key="frame" x="67" y="129" width="50" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Yellow" id="40">
@@ -118,7 +118,7 @@ Gw
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <colorWell id="45">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="45">
                                     <rect key="frame" x="18" y="42" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -126,7 +126,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.cyanColour" id="57"/>
                                     </connections>
                                 </colorWell>
-                                <colorWell id="48">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="48">
                                     <rect key="frame" x="18" y="14" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -134,7 +134,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.whiteColour" id="58"/>
                                     </connections>
                                 </colorWell>
-                                <textField verticalHuggingPriority="750" id="42">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="42">
                                     <rect key="frame" x="67" y="73" width="58" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Magenta" id="43">
@@ -143,7 +143,7 @@ Gw
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <textField verticalHuggingPriority="750" id="47">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="47">
                                     <rect key="frame" x="67" y="17" width="58" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="White" id="49">
@@ -152,7 +152,7 @@ Gw
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <colorWell id="22">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="22">
                                     <rect key="frame" x="18" y="98" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -160,7 +160,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.blueColour" id="25"/>
                                     </connections>
                                 </colorWell>
-                                <textField verticalHuggingPriority="750" id="35">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="35">
                                     <rect key="frame" x="67" y="157" width="50" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Green" id="37">
@@ -169,7 +169,7 @@ Gw
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <textField verticalHuggingPriority="750" id="32">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="32">
                                     <rect key="frame" x="67" y="185" width="50" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Red" id="34">
@@ -183,14 +183,14 @@ Gw
                         <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
                         <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </box>
-                    <box autoresizesSubviews="NO" title="Bright Colours" borderType="line" id="60">
+                    <box autoresizesSubviews="NO" fixedFrame="YES" title="Bright Colours" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="60">
                         <rect key="frame" x="186" y="49" width="142" height="259"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <view key="contentView">
                             <rect key="frame" x="1" y="1" width="140" height="243"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <colorWell id="76">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="76">
                                     <rect key="frame" x="18" y="210" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -198,7 +198,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.brightBlackColour" id="85"/>
                                     </connections>
                                 </colorWell>
-                                <textField verticalHuggingPriority="750" id="75">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="75">
                                     <rect key="frame" x="67" y="101" width="38" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Blue" id="77">
@@ -207,7 +207,7 @@ Gw
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <textField verticalHuggingPriority="750" id="74">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="74">
                                     <rect key="frame" x="67" y="45" width="58" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Cyan" id="78">
@@ -216,7 +216,7 @@ Gw
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <colorWell id="73">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="73">
                                     <rect key="frame" x="18" y="70" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -224,7 +224,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.brightMagentaColour" id="90"/>
                                     </connections>
                                 </colorWell>
-                                <colorWell id="72">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="72">
                                     <rect key="frame" x="18" y="154" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -232,7 +232,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.brightGreenColour" id="87"/>
                                     </connections>
                                 </colorWell>
-                                <textField verticalHuggingPriority="750" id="71">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="71">
                                     <rect key="frame" x="67" y="213" width="50" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Black" id="79">
@@ -241,7 +241,7 @@ Gw
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <colorWell id="70">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="70">
                                     <rect key="frame" x="18" y="126" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -249,7 +249,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.brightYellowColour" id="88"/>
                                     </connections>
                                 </colorWell>
-                                <colorWell id="69">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="69">
                                     <rect key="frame" x="18" y="182" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -257,7 +257,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.brightRedColour" id="86"/>
                                     </connections>
                                 </colorWell>
-                                <textField verticalHuggingPriority="750" id="68">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="68">
                                     <rect key="frame" x="67" y="129" width="50" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Yellow" id="80">
@@ -266,7 +266,7 @@ Gw
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <colorWell id="67">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="67">
                                     <rect key="frame" x="18" y="42" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -274,7 +274,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.brightCyanColour" id="91"/>
                                     </connections>
                                 </colorWell>
-                                <colorWell id="66">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="66">
                                     <rect key="frame" x="18" y="14" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -282,7 +282,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.brightWhiteColour" id="92"/>
                                     </connections>
                                 </colorWell>
-                                <textField verticalHuggingPriority="750" id="65">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="65">
                                     <rect key="frame" x="67" y="73" width="58" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Magenta" id="81">
@@ -291,7 +291,7 @@ Gw
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <textField verticalHuggingPriority="750" id="64">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="64">
                                     <rect key="frame" x="67" y="17" width="58" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="White" id="82">
@@ -300,7 +300,7 @@ Gw
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <colorWell id="63">
+                                <colorWell fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="63">
                                     <rect key="frame" x="18" y="98" width="44" height="23"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <color key="color" red="0.058130499000000002" green="0.055541898999999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -308,7 +308,7 @@ Gw
                                         <binding destination="-2" name="value" keyPath="profilesController.selection.brightBlueColour" id="89"/>
                                     </connections>
                                 </colorWell>
-                                <textField verticalHuggingPriority="750" id="62">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="62">
                                     <rect key="frame" x="67" y="157" width="50" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Green" id="83">
@@ -317,7 +317,7 @@ Gw
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
-                                <textField verticalHuggingPriority="750" id="61">
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="61">
                                     <rect key="frame" x="67" y="185" width="50" height="17"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                     <textFieldCell key="cell" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Red" id="84">
