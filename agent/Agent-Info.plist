@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TargetBundleIdentifier</key>
+	<string>com.apple.Terminal</string>
+	<key>TargetPath</key>
+	<string>/Applications/Utilities/Terminal.app</string>
+	<key>TargetName</key>
+	<string>Terminal</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>TotalTerminal</string>
+	<key>CFBundleIconFile</key>
+	<string>Icon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.binaryage.totalterminal.agent</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>TotalTerminal</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>##VERSION##</string>
+	<key>CFBundleSignature</key>
+	<string>BAGE</string>
+	<key>CFBundleVersion</key>
+	<string>##VERSION##</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>${MACOSX_DEPLOYMENT_TARGET}</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2013 BinaryAge. All rights reserved.</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>ShellPath</key>
+	<string>/Library/ScriptingAdditions/TotalTerminal.osax/Contents/Resources/TotalTerminal.bundle</string>
+	<key>InitEventClass</key>
+	<string>BATT</string>
+	<key>InitEventID</key>
+	<string>init</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
