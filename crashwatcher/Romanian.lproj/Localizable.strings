@@ -1,5 +1,5 @@
 "crashDialogHeader" = "TotalTerminal s-a închis în mod neaşteptat";
-"crashDialogMsg" = "Ne pare rău, dar a apărut o problemă neaşteptată iar TotalTerminal a închis Finder.";
+"crashDialogMsg" = "Ne pare rău, dar a apărut o problemă neaşteptată iar TotalTerminal a închis Terminal.";
 "crashDialogNote" = "";
 "crashDialogExplanation" = "Butonul Trimite va încărca raportul de accident la gist.github.com şi va lanseza Mail.app cu şablonul de e-mail.";
 
@@ -11,7 +11,7 @@
 "sendReportButton" = "Email Trimis";
 "cancelButton" = "Revocare";
 
-"emailTemplate" = "Bună Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Thank you, Antonin";
+"emailTemplate" = "Bună Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://discuss.binaryage.com.\n>\n> Thank you, Antonin";
 
 "countdownMsgSecondsPlural" = "%d secunde rămase.";
 "countdownMsgSecondSingular" = "%d secundă rămasă.";

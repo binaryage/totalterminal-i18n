@@ -1,5 +1,5 @@
 "crashDialogHeader" = "TotalTerminal가 예기치 못하게 종료되었습니다.";
-"crashDialogMsg" = "죄송합니다, TotalTerminal에 예상치 못한 문제가 생겨 Finder가 충돌했습니다.";
+"crashDialogMsg" = "죄송합니다, TotalTerminal에 예상치 못한 문제가 생겨 Terminal가 충돌했습니다.";
 "crashDialogNote" = "";
 "crashDialogExplanation" = "보내기 단추를 누르면 충돌 보고서를 gist.github.com에 올리고 해당 내용을 메일로 보내기 위해 Mail.app이 열릴 것입니다.";
 
@@ -11,7 +11,7 @@
 "sendReportButton" = "이메일 보내기";
 "cancelButton" = "취소";
 
-"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Thank you, Antonin";
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://discuss.binaryage.com.\n>\n> Thank you, Antonin";
 
 "countdownMsgSecondsPlural" = "%d초 남음.";
 "countdownMsgSecondSingular" = "%d초 남음.";

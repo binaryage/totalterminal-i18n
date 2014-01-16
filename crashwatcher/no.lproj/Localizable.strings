@@ -1,5 +1,5 @@
 "crashDialogHeader" = "TotalTerminal has avsluttet uventet";
-"crashDialogMsg" = "Vi beklager, men TotalTerminal traff et uventet problem og forårsaket en krasj av Finder.";
+"crashDialogMsg" = "Vi beklager, men TotalTerminal traff et uventet problem og forårsaket en krasj av Terminal.";
 "crashDialogNote" = "";
 "crashDialogExplanation" = "Send-knappen vil laste opp en krasj-rapport til gist.gihub.com og starte Mail.app med en e-post-mal.";
 
@@ -11,7 +11,7 @@
 "sendReportButton" = "Send e-post";
 "cancelButton" = "Avbryt";
 
-"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://getsatisfaction.com/binaryage.\n>\n> Thank you, Antonin";
+"emailTemplate" = "Hi Antonin,\n\nMy %@ just crashed!\n\nThe crash report is available here:\n%@\n\n>\n> You may help me fix the problem by describing what happened before the crash.\n> I appreciate your help and I read these crash reports, but don't expect my direct answer.\n> For further discussion please open a topic at\n> http://discuss.binaryage.com.\n>\n> Thank you, Antonin";
 
 "countdownMsgSecondsPlural" = "%d sekunder igjen.";
 "countdownMsgSecondSingular" = "%d sekund igjen.";
