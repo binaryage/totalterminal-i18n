@@ -150,11 +150,11 @@
                                 </connections>
                             </button>
                             <comboBox verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pa2-Ze-Kz3">
-                                <rect key="frame" x="125" y="366" width="153" height="23"/>
+                                <rect key="frame" x="125" y="366" width="183" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="18" id="fAd-Xm-EPy"/>
-                                    <constraint firstAttribute="width" constant="150" id="ogW-is-7ay"/>
+                                    <constraint firstAttribute="width" constant="180" id="ogW-is-7ay"/>
                                 </constraints>
                                 <comboBoxCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="bezel" title="Screen 0" drawsBackground="YES" completes="NO" usesDataSource="YES" numberOfVisibleItems="5" id="IwE-js-Hos">
                                     <font key="font" metaFont="smallSystem"/>
@@ -171,10 +171,10 @@
                                 </connections>
                             </comboBox>
                             <comboBox verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uYN-6O-Ipf">
-                                <rect key="frame" x="125" y="390" width="153" height="23"/>
+                                <rect key="frame" x="125" y="390" width="183" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="Div-V9-rPd"/>
+                                    <constraint firstAttribute="width" constant="180" id="Div-V9-rPd"/>
                                     <constraint firstAttribute="height" constant="18" id="Mz0-fE-F9i"/>
                                 </constraints>
                                 <comboBoxCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="Top-Stretch" drawsBackground="YES" completes="NO" numberOfVisibleItems="16" id="569-Kd-1Pj">
@@ -706,7 +706,7 @@
                             <constraint firstItem="VEM-uQ-MPI" firstAttribute="leading" secondItem="yZj-g7-mGV" secondAttribute="leading" constant="-18" id="VMG-E4-piB"/>
                             <constraint firstItem="OJQ-SV-bjT" firstAttribute="leading" secondItem="teH-xw-QxR" secondAttribute="trailing" constant="8" id="Vxp-Vo-QqQ"/>
                             <constraint firstItem="UFD-2p-vf7" firstAttribute="top" secondItem="2sl-pK-Bk0" secondAttribute="bottom" constant="5" id="WCK-FW-tFm"/>
-                            <constraint firstItem="8cO-qo-DNY" firstAttribute="leading" secondItem="pa2-Ze-Kz3" secondAttribute="trailing" constant="73" id="Y21-0H-gMC"/>
+                            <constraint firstItem="8cO-qo-DNY" firstAttribute="leading" secondItem="pa2-Ze-Kz3" secondAttribute="trailing" constant="43" id="Y21-0H-gMC"/>
                             <constraint firstItem="pBf-gQ-afc" firstAttribute="top" secondItem="ykQ-Pn-ywH" secondAttribute="bottom" constant="9" id="YJg-4f-acX"/>
                             <constraint firstItem="Dbz-Gm-YgN" firstAttribute="top" secondItem="8cO-qo-DNY" secondAttribute="bottom" constant="15" id="Z4b-oI-Ufo"/>
                             <constraint firstItem="uYN-6O-Ipf" firstAttribute="top" secondItem="pBf-gQ-afc" secondAttribute="bottom" constant="14" id="aE8-hq-eSV"/>
@@ -718,7 +718,7 @@
                             <constraint firstItem="4WC-R0-r2k" firstAttribute="leading" secondItem="yIn-z6-idV" secondAttribute="trailing" constant="3" id="byD-MO-ola"/>
                             <constraint firstItem="2sl-pK-Bk0" firstAttribute="leading" secondItem="XQu-tZ-m5p" secondAttribute="leading" id="dhV-3B-FNx"/>
                             <constraint firstItem="yQR-jx-tAz" firstAttribute="leading" secondItem="ykQ-Pn-ywH" secondAttribute="trailing" constant="73" id="gmO-T4-Nct"/>
-                            <constraint firstItem="dzc-Pa-B2X" firstAttribute="leading" secondItem="uYN-6O-Ipf" secondAttribute="trailing" constant="73" id="h4Y-Sc-yTs"/>
+                            <constraint firstItem="dzc-Pa-B2X" firstAttribute="leading" secondItem="uYN-6O-Ipf" secondAttribute="trailing" constant="43" id="h4Y-Sc-yTs"/>
                             <constraint firstItem="uYN-6O-Ipf" firstAttribute="leading" secondItem="USX-lZ-Ko0" secondAttribute="trailing" constant="14" id="iWz-no-tDk"/>
                             <constraint firstItem="z7q-yr-KBd" firstAttribute="leading" secondItem="iWb-dW-4T8" secondAttribute="leading" constant="1" id="isj-VM-AfQ"/>
                             <constraint firstItem="8cO-qo-DNY" firstAttribute="top" secondItem="dzc-Pa-B2X" secondAttribute="bottom" constant="6" id="kFg-Qi-9H3"/>
