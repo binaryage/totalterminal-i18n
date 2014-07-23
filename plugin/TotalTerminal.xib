@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13E19" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6185.11" systemVersion="13E28" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6154.17"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="6154.17"/>
+        <deployment defaultVersion="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6185.11"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="6185.11"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="TotalTerminal">
@@ -17,7 +18,7 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <userDefaultsController id="9" userLabel="Shared Defaults"/>
         <tabView type="noTabsNoBorder" id="yhK-5j-cMR">
             <rect key="frame" x="0.0" y="0.0" width="668" height="524"/>
@@ -60,14 +61,14 @@
                                     <binding destination="9" name="value" keyPath="values.TotalTerminalVisorHotKey2Enabled" id="qxh-OE-IJu"/>
                                 </connections>
                             </button>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="ykQ-Pn-ywH" customClass="SRRecorderControl">
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="ykQ-Pn-ywH" customClass="MASShortcutView">
                                 <rect key="frame" x="125" y="475" width="150" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="KMB-aP-730"/>
                                     <constraint firstAttribute="width" constant="150" id="n44-Xi-jWB"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="shortcut" value="ToggleVisor"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="ToggleVisor"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outlet property="delegate" destination="-2" id="6nx-Xi-p4U"/>
@@ -422,17 +423,14 @@
                                     <outlet property="formatter" destination="918" id="hYr-8u-JOC"/>
                                 </connections>
                             </textField>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="Ifj-gi-Qcy" userLabel="Recorder Control" customClass="SRRecorderControl">
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="Ifj-gi-Qcy" customClass="MASShortcutView">
                                 <rect key="frame" x="376" y="475" width="150" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="9qX-cV-04A"/>
                                     <constraint firstAttribute="height" constant="22" id="fre-3z-rgE"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="shortcut" value="PinVisor"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="menuTag">
-                                        <real key="value" value="4101"/>
-                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="shortcutName" value="PinVisor"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outlet property="delegate" destination="-2" id="4Iz-jS-SQo"/>
