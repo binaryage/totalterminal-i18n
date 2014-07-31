@@ -8,12 +8,12 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="TotalTerminal">
             <connections>
-                <outlet property="_createProfileButton" destination="Kc2-nY-9Q9" id="MPc-I7-IKr"/>
-                <outlet property="_infoLine" destination="AUg-oN-NtF" id="UAP-BZ-cCf"/>
-                <outlet property="_modifierIcon1" destination="yIn-z6-idV" id="ZVl-1A-sQl"/>
-                <outlet property="_modifierIcon2" destination="pBf-gQ-afc" id="fVX-yl-cER"/>
-                <outlet property="_preferencesView" destination="Emc-4G-xtx" id="xIv-ME-PBF"/>
-                <outlet property="_settingsTabView" destination="yhK-5j-cMR" id="Edq-zS-7bT"/>
+                <outlet property="$createProfileButton" destination="Kc2-nY-9Q9" id="MPc-I7-IKr"/>
+                <outlet property="$infoLine" destination="AUg-oN-NtF" id="UAP-BZ-cCf"/>
+                <outlet property="$modifierIcon1" destination="yIn-z6-idV" id="ZVl-1A-sQl"/>
+                <outlet property="$modifierIcon2" destination="pBf-gQ-afc" id="fVX-yl-cER"/>
+                <outlet property="$preferencesView" destination="Emc-4G-xtx" id="xIv-ME-PBF"/>
+                <outlet property="$settingsTabView" destination="yhK-5j-cMR" id="Edq-zS-7bT"/>
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
