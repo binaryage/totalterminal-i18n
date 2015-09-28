@@ -2,12 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>TargetBundleIdentifier</key>
-	<string>com.apple.Terminal</string>
-	<key>TargetPath</key>
-	<string>/Applications/Utilities/Terminal.app</string>
-	<key>TargetName</key>
-	<string>Terminal</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -38,15 +32,29 @@
 	<string>Copyright © 2013 BinaryAge. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
-	<key>ShellPath</key>
-	<string>/Library/ScriptingAdditions/TotalTerminal.osax/Contents/Resources/TotalTerminal.bundle</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
 	<key>InitEventClass</key>
 	<string>BATT</string>
 	<key>InitEventID</key>
 	<string>init</string>
+	<key>NSUserNotificationAlertStyle</key>
+	<string>alert</string>
+	<key>ShellPath</key>
+	<string>/Library/ScriptingAdditions/TotalTerminal.osax/Contents/Resources/TotalTerminal.bundle</string>
 	<key>SoftInjectionDelay</key>
 	<real>2</real>
-	<key>NSPrincipalClass</key>
-	<string>NSApplication</string>
+	<key>TargetBundleIdentifier</key>
+	<string>com.apple.Terminal</string>
+	<key>TargetPath</key>
+	<string>/Applications/Utilities/Terminal.app</string>
+	<key>TargetName</key>
+	<string>Terminal</string>
+	<key>SIPInfoURL</key>
+	<string>http://totalterminal.binaryage.com/#sip</string>
+	<key>CheckSIP</key>
+	<true/>
+	<key>UninstallerPath</key>
+	<string>/Library/ScriptingAdditions/TotalTerminal.osax/Contents/Resources/TotalTerminal.bundle/Contents/Resources/TotalTerminal Uninstaller.app</string>
 </dict>
 </plist>
