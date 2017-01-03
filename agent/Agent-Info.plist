@@ -51,7 +51,7 @@
 	<key>TargetName</key>
 	<string>Terminal</string>
 	<key>SIPInfoURL</key>
-	<string>http://totalterminal.binaryage.com/#sip</string>
+	<string>https://totalterminal.binaryage.com/#sip</string>
 	<key>CheckSIP</key>
 	<true/>
 	<key>UninstallerPath</key>
